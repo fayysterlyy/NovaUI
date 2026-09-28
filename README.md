@@ -7,7 +7,7 @@ Fluent hissi veren ama özgün Roblox Luau UI library. Tek dosya release, execut
 `NovaUI.lua` build artifact'tır. Executor'da:
 
 ```lua
-local Nova = loadstring(game:HttpGet("https://raw.githubusercontent.com/SEN/repo/main/NovaUI.lua"))()
+local Nova = loadstring(game:HttpGet("https://raw.githubusercontent.com/fayysterlyy/NovaUI/main/NovaUI.lua"))()
 -- ya da local test:
 local Nova = loadstring(readfile("NovaUI.lua"))()
 
