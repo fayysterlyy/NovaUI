@@ -1,7 +1,7 @@
 -- NovaUI Demo: tek dosya release'in kullanim ornegi.
 -- Executor'da calistir (NovaUI.lua ayni klasorde olmali).
 
-local Nova = loadstring(readfile("NovaUI.lua"))()
+local Nova = loadstring(game:HttpGet("https://raw.githubusercontent.com/fayysterlyy/NovaUI/main/NovaUI.lua"))()
 
 -- Pencere
 local Window = Nova.CreateWindow({
